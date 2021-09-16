@@ -11,7 +11,7 @@
 
 <VBox prefHeight="424.0" prefWidth="574.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SellerListController">
    <children>
-      <Label text="Seller Registration ">
+      <Label prefHeight="40.0" prefWidth="130.0" text="Seller Registration ">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -19,7 +19,7 @@
             <Insets left="5.0" top="5.0" />
          </padding>
       </Label>
-      <ToolBar prefHeight="40.0" prefWidth="200.0">
+      <ToolBar prefHeight="59.0" prefWidth="574.0">
         <items>
           <Button fx:id="btNew" mnemonicParsing="false" onAction="#onBtNewAction" text="New" />
         </items>
